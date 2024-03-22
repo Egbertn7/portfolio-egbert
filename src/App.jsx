@@ -20,6 +20,7 @@ function App() {
     <NavbarComponent /> 
 
       <Routes>
+      <Route path="/portfolio-egbert" Component={HomePage}/>
         <Route path="/home" Component={HomePage}/>
         <Route path="/portofolio" Component={PortofolioPage}/>
         <Route path="/testimonial" Component={TestimonialPage}/>
