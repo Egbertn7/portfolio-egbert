@@ -19,18 +19,16 @@ function App() {
     <div>
     <NavbarComponent /> 
 
-      <Routes>
-      <Route path="/portfolio-egbert" Component={HomePage}/>
-        <Route path="/home" Component={HomePage}/>
-        <Route path="/portofolio" Component={PortofolioPage}/>
-        <Route path="/testimonial" Component={TestimonialPage}/>
-        <Route path="/faq" Component={FaqPage}/>
-        <Route path="/about" Component={SyaratPage}/>
-      </Routes>
+    <Routes>
+      <Route path="/" Component={HomePage} /> {/* Home */}
+      <Route path="/portofolio" Component={PortofolioPage} />
+      <Route path="/testimonial" Component={TestimonialPage} />
+      <Route path="/faq" Component={FaqPage} />
+      <Route path="/about" Component={SyaratPage} />
+    </Routes>
 
-      <FooterComponent />
-      
-    </div>
+    <FooterComponent />
+  </div>
   )
 }
 

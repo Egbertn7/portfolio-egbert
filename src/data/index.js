@@ -15,6 +15,8 @@ import Image3 from '../assets/img/sertifikat3.png';
 import Image4 from '../assets/img/sertifikat4.png';
 import Image5 from '../assets/img/sertifikat5.png';
 import Image6 from '../assets/img/sertifikat6.png';
+import Image7 from '../assets/img/sertifikat7.png';
+import Image8 from '../assets/img/sertifikat8.png';
 
 // testinialPage 
 import client1 from "../assets/img/testimonial/client1.png";
@@ -24,7 +26,7 @@ import client1 from "../assets/img/testimonial/client1.png";
 export const navLinks = [
   {
     id: 1,
-    path: "home",
+    path: "/",
     text: "Home",
   },
   {
@@ -128,32 +130,32 @@ export const semuaKelas = [
     buy: "Beli Kelas",
     delay: "600",
   },
-  // {
-  //   id: 7,
-  //   image: KelasImage7,
-  //   star1: "fa-solid fa-star",
-  //   star2: "fa-solid fa-star",
-  //   star3: "fa-solid fa-star",
-  //   star4: "fa-solid fa-star",
-  //   star5: "fa-solid fa-star-half-stroke",
-  //   title: "Design Vektor with Corel Draw CC for Beginner",
-  //   price: "Rp. 340.000",
-  //   buy: "Beli Kelas",
-  //   delay: "",
-  // },
-  // {
-  //   id: 8,
-  //   image: KelasImage8,
-  //   star1: "fa-solid fa-star",
-  //   star2: "fa-solid fa-star",
-  //   star3: "fa-solid fa-star",
-  //   star4: "fa-solid fa-star",
-  //   star5: "fa-solid fa-star-half-stroke",
-  //   title: "UI UX Design with Adobe XD for Beginner",
-  //   price: "Rp. 400.000",
-  //   buy: "Beli Kelas",
-  //   delay: "300",
-  // },
+  {
+    id: 7,
+    image: Image7,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Design Vektor with Corel Draw CC for Beginner",
+    price: "Rp. 340.000",
+    buy: "Beli Kelas",
+    delay: "",
+  },
+   {
+     id: 8,
+     image: Image8,
+     star1: "fa-solid fa-star",
+     star2: "fa-solid fa-star",
+     star3: "fa-solid fa-star",
+     star4: "fa-solid fa-star",
+     star5: "fa-solid fa-star-half-stroke",
+     title: "UI UX Design with Adobe XD for Beginner",
+     price: "Rp. 400.000",
+     buy: "Beli Kelas",
+     delay: "300",
+     },
   // {
   //   id: 9,
   //   image: KelasImage9,
@@ -248,6 +250,32 @@ export const kelasTerbaru = [
     buy: "Beli Kelas",
     delay: "400",
   },
+{
+  id: 7,
+  image: Image7,
+  star1: "fa-solid fa-star",
+  star2: "fa-solid fa-star",
+  star3: "fa-solid fa-star",
+  star4: "fa-solid fa-star",
+  star5: "fa-solid fa-star",
+  title: "Mastering Icon Design with Adobe Illustrator",
+  price: "Rp. 300.000",
+  buy: "Beli Kelas",
+  delay: "400",
+},
+{
+id: 8,
+image: Image8,
+star1: "fa-solid fa-star",
+star2: "fa-solid fa-star",
+star3: "fa-solid fa-star",
+star4: "fa-solid fa-star",
+star5: "fa-solid fa-star",
+title: "Mastering Icon Design with Adobe Illustrator",
+price: "Rp. 300.000",
+buy: "Beli Kelas",
+delay: "400",
+},
 ];
 
 export const testimonial = [
