@@ -16,7 +16,7 @@ AOS.init();
 // file main itu buat global digunakan untuk merekut/mengabungkan semua file supaya bisa jalan 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio-egbert">
+    <BrowserRouter basename="/">
     <ScrollToTop/>
       <App />
     </BrowserRouter>
