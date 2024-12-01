@@ -26,7 +26,7 @@ import client1 from "../assets/img/testimonial/client1.png";
 export const navLinks = [
   {
     id: 1,
-    path: "/portfolio-egbert",
+    path: "/",
     text: "Home",
   },
   {
