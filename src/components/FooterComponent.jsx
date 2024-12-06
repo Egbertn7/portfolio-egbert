@@ -9,8 +9,7 @@ const FooterComponent = () => {
           <Col lg="5">
             <h3 className="fw-bold">Egbert</h3>
             <p className="desc">
-              Silahkan kontak saya untuk berdiskusi dan mendapatkan informasi
-              terbaru! 🙌
+            Please contact me to discuss and get the latest information! 🙌
             </p>
             <div className="no mb-1 mt-4">
               <p className="text-decoration-none">
@@ -29,14 +28,14 @@ const FooterComponent = () => {
             <h5 className="fw-bold">Menu</h5>
             <Link to="/">Home</Link>
             <Link to="about">About</Link>
-            <Link to="portofolio">Portofolio</Link>
+            <Link to="portofolio">Portfolio</Link>
             <Link to="testimonial">Testimonial</Link>
             <Link to="faq">FAQ</Link>
           </Col>
           <Col lg="4" className="mt-lg-0 mt-5">
-            <h5 className="fw-bold mb-3">Subscribe untuk info menarik!</h5>
+            <h5 className="fw-bold mb-3">Subscribe for interesting info!</h5>
             <div className="subscribes">
-              <input type="text" placeholder="cari" />
+              <input type="text" placeholder="Search" />
               <button className="btn btn-primary rounded-end rounded-0">
                 Subscribe
               </button>

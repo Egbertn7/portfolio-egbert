@@ -14,7 +14,7 @@ const TestimonialPage = () => {
                 Semua Testimonial
               </h1>
               <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
-              Berikut adalah beberapa pengalaman dan kesan positif dari klien yang telah bekerja sama dengan saya. Komitmen terhadap kualitas, kreativitas, dan hasil terbaik selalu menjadi prioritas utama dalam setiap proyek.
+              positive experiences and impressions from clients who have worked with me. Commitment to quality, creativity, and the best results are always the top priorities in every project.
               </p>
             </Col>
           </Row>

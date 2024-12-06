@@ -30,9 +30,8 @@ const HomePage = () => {
                 Software Developer | Graphic Designer
               </h4>
               <p className="mb-3 animate__animated animate__fadeInUp animate__delay-1s">
-                Di sini, kamu akan menemukan koleksi karya-karya kreatif saya.
-                ini adalah pandangan singkat ke dalam dunia kreatif saya. Mari
-                bersama-sama menjelajahi dan mengeksplorasi inspirasi bersama.
+              Here you will find a collection of my creative works.
+              this is a brief glimpse into my creative world. Lets explore and explore inspiration together.
               </p>
               <button
                 className="btn btn-primary btn-lg rounded-1 animate__animated animate__fadeInUp animate__delay-1s"
@@ -59,7 +58,7 @@ const HomePage = () => {
               Project
             </h1>
             <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>
-              Project saya yang telah di ikuti
+            My project that has been followed
             </p>
           </Row>
           <Row className="g-4">
@@ -103,8 +102,8 @@ const HomePage = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className="text-center fw-bold">Portofolio</h1>
-              <p className="text-center">Ini adalah hasil pengalaman saya</p>
+              <h1 className="text-center fw-bold">Portfolio</h1>
+              <p className="text-center">This is the result of my experience</p>
             </Col>
           </Row>
           <Row>
@@ -134,7 +133,7 @@ const HomePage = () => {
                 data-aos-duration="1000"
                 onClick={() => navigate("/portofolio")}
               >
-                Lihat Portofolio{" "}
+                View Portfolio{" "}
                 <i className="fa-solid fa-chevron-right ms-1"></i>
               </button>
             </Col>

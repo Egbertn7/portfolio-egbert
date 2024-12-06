@@ -40,8 +40,8 @@ return (
                     </div>
                 </Col>
                 <Col md={8}>
-                    <h4 className='fw-bold'>Perkenalan</h4>
-                    <p>Halo, Nama saya Egbert Angenius. Saya seorang pengembang perangkat lunak yang memiliki hasrat untuk desain kreatif. Dengan pengalaman, saya terampil dalam Pengembangan Web, Mendesain, Menggambar, dan banyak lagi, mendesain antarmuka pengguna yang menarik dengan fokus pada pengalaman pengguna yang optimal. Pengalaman saya meliputi pengembangan aplikasi web yang sukses. Saya terus berinovasi dan berusaha untuk menggabungkan keterampilan teknis dalam pengembangan perangkat lunak dengan pemikiran desain yang kuat.</p>
+                    <h4 className='fw-bold'>Introduction</h4>
+                    <p>Hi, My name is Egbert Angenius. I am a software developer and graphic designer with a passion for creative design. With experience, I am skilled in Web Development, Designing, Drawing, and more, designing engaging user interfaces with a focus on optimal user experience. My experience includes developing successful web applications. I am constantly innovating and striving to combine technical skills in software development with strong design thinking.</p>
                     
                     <h5 className='fw-bold mt-4'>Skills</h5>
                     <div className="skills-container d-flex flex-wrap gap-2">

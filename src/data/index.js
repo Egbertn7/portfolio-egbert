@@ -24,6 +24,7 @@ import Project1 from '../assets/img/project/project1.svg';
 
 // testinialPage 
 import client1 from "../assets/img/testimonial/client1.svg";
+import { Placeholder } from 'react-bootstrap';
 
 
 // ini namanya  API buat looping data artinya tinggal ambil data dari file index.js 
@@ -41,7 +42,7 @@ export const navLinks = [
   {
     id: 3,
     path: "portofolio",
-    text: "Portofolio",
+    text: "Portfolio",
   },
   {
     id: 4,
@@ -313,50 +314,50 @@ export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Apa saja layanan yang Anda tawarkan?",
-    desc: "Saya membuka jasa sebagai freelance lewat fiverr atau upwork yaitu jasa membuat website yang resposive, mendesain website, membuat graphic design, membuat karakter untuk animasi 3d, mengedit foto, mengedit video, dll jika berminat bisa hubungi saya lewat gmail atau whatsapp",
+    title: "What services do you offer?",
+    desc: "I offer freelance services via Fiverr, namely services for creating responsive websites, designing websites, creating graphic designs, creating characters for 3D animation, editing photos, editing videos, etc. If you are interested, you can contact me via Gmail or telephone number.",
   },
   {
     id: 2,
     eventKey: 1,
-    title: "Apakah Boleh di Share ke Orang Lain?",
-    desc: "Tentu saja, anda bisa mendukung saya dengan share lewat media sosial maupun yang lain",
+    title: "Can it be shared with other people?",
+    desc: "Of course, you can support me by sharing via social media or others",
   },
   {
     id: 3,
     eventKey: 2,
-    title: "Bagaimana cara saya memulai proyek dengan Anda?",
-    desc: "Anda dapat menghubungi saya melalui halaman Kontak di website ini, atau langsung melalui platform freelance seperti Fiverr atau Upwork. Saya akan menanggapi dalam waktu 24 jam untuk membahas detail proyek Anda.",
+    title: "How do I start a project with you?",
+    desc: "You can contact me through the Contact page on this website, or directly through a freelance platform like Fiverr. I will respond within 24 hours to discuss the details of your project.",
   },
   {
     id: 4,
     eventKey: 3,
-    title: "Berapa lama waktu yang dibutuhkan untuk menyelesaikan proyek?",
-    desc: "Waktu penyelesaian proyek bervariasi tergantung pada kompleksitas dan ukuran proyek. Secara umum, proyek kecil biasanya diselesaikan dalam 3-5 hari kerja, sementara proyek besar mungkin memerlukan waktu lebih lama. Saya akan memberikan estimasi yang jelas sebelum memulai proyek.",
+    title: "How long will it take to complete the project?",
+    desc: "Project completion time varies depending on the complexity and size of the project. But I will do my best to complete it on the same day, without sacrificing quality.",
   },
   {
     id: 5,
     eventKey: 4,
-    title: "Bagaimana sistem pembayarannya?",
-    desc: "Pembayaran dapat dilakukan melalui platform seperti Fiverr dan Upwork. Saya menggunakan metode pembayaran yang aman dan terverifikasi untuk memastikan transaksi berjalan lancar dan sesuai dengan kesepakatan.",
+    title: "How does the payment system work?",
+    desc: "Payments can be made through platforms like Fiverr. I use secure and verified payment methods to ensure transactions go smoothly and according to agreement.",
   },
   {
     id: 6,
     eventKey: 5,
-    title: "Apakah Anda menyediakan revisi?",
-    desc: "Ya, saya menawarkan revisi pada setiap proyek untuk memastikan hasil sesuai dengan harapan Anda. Jumlah revisi yang ditawarkan akan tergantung pada kesepakatan awal, namun saya selalu berusaha untuk memastikan kepuasan klien.",
+    title: "Do you provide revisions?",
+    desc: "Yes, I offer revisions on every project to ensure the results meet your expectations. The number of revisions offered will depend on the initial agreement, but I always strive to ensure client satisfaction.",
   },
   {
     id: 7,
     eventKey: 6,
-    title: "Jenis Metode pembayaran bisa lewat apa?",
-    desc: "Untuk metode pembayarannya bisa lewat dari paypal, jika ingin lewat yang lain silakan berdiskusi ya",
+    title: "What types of payment methods can be used?",
+    desc: "For payment methods, you can use PayPal, if you want to use another method, please discuss it.",
   },
   {
     id: 8,
     eventKey: 7,
-    title: "Apa keunggulan bekerja dengan Anda dibandingkan freelancer lain?",
-    desc: "Saya berfokus pada detail, komunikasi yang terbuka, dan kepuasan klien. Dengan pengalaman bertahun-tahun di industri, saya mengutamakan kualitas dan hasil yang tepat waktu, serta selalu berusaha melebihi ekspektasi klien.",
+    title: "What are the advantages of working with you over other freelancers?",
+    desc: "I focus on details, open communication, and client satisfaction. With years of experience in the industry, I prioritize quality and timely results, and always strive to exceed client expectations.",
   },
 ];
 
@@ -366,9 +367,28 @@ export const project = [
     id: 1,
     image: Project1,
     title: "Project1",
-    desc: "tugas",
+    desc: "Creating a responsive website using TailwindCSS",
     skills: ["HTML", "CSS", "TailwindCSS", "Javascript"],
     link: "https://github.com/Egbertn7/project-client-1.git",
     delay: "1300",
   },
+  {
+    id: 2,
+    image: Placeholder,
+    title: "",
+    desc: "",
+    skills: "",
+    link: "",
+    delay: "1300",
+  },
+  {
+    id: 3,
+    image: Placeholder,
+    title: "",
+    desc: "",
+    skills: "",
+    link: "",
+    delay: "1300",
+  },
+  
 ]

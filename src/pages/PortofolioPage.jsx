@@ -11,7 +11,7 @@ return (
 <Container>
             <Row>
                 <h1 className='fw-bold text-center animate__animated animate__fadeInUp animate__delay-1s'>Project</h1>
-                <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>Project saya yang telah di ikuti</p>
+                <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>My completed project</p>
             </Row>
             <Row className="g-4">
                 {project.map((project) => {
@@ -25,7 +25,7 @@ return (
                                     style={{height: "200px", objectFit: "cover"}}
                                 />
                                 <h5 className="fw-bold mb-2">{project.title}</h5>
-                                <p className="text-muted mb-3">{project.desc}</p>
+                                <p className="text-muted mb-3 ">{project.desc}</p>
                                 
                                 <div className="skills-container mb-3">
                                     {project.skills && project.skills.map((skill, index) => (
@@ -39,9 +39,9 @@ return (
                                     href={project.link}
                                     target="_blank"
                                     rel="noopener noreferrer" 
-                                    className="btn btn-primary w-100"
+                                    className="btn btn-primary w-50"
                                 >
-                                    Preview 
+                                    Source 
                                 </a>
                             </div>
                         </Col>
@@ -55,7 +55,7 @@ return (
             <Row>
                 <Col>
                 <h1 className='fw-bold text-center animate__animated animate__fadeInUp animate__delay-1s'>Portfolio</h1>
-                <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>Ini adalah hasil pengalaman saya</p>
+                <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>This is the result of my experience</p>
                 </Col>
             </Row>
             <Row>
