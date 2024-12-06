@@ -23,7 +23,7 @@ import Image8 from '../assets/img/sertifikat8.svg';
 import Project1 from '../assets/img/project/project1.svg';
 
 // testinialPage 
-import client1 from "../assets/img/testimonial/client1.png";
+import client1 from "../assets/img/testimonial/client1.svg";
 
 
 // ini namanya  API buat looping data artinya tinggal ambil data dari file index.js 
