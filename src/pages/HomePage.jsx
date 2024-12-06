@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from "../assets/img/foto-egbert.png";
 
-import { kelasTerbaru, dataSwiper } from "../data/index";
+import { kelasTerbaru, dataSwiper, project } from "../data/index";
 import { useNavigate } from "react-router-dom";
 import Faqcomponent from "../components/FaqComponent";
 
@@ -24,8 +24,11 @@ const HomePage = () => {
           <Row className="header-box d-flex align-items-center pt-lg-5">
             <Col lg="6">
               <h1 className="mb-3 fw-bold animate__animated animate__fadeInUp animate__delay-1s">
-                Hello! I’m Egbert Angenius😎
+                Hello!I’m Egbert Angenius 😎
               </h1>
+              <h4 className="mb-3 fw-bold animate__animated animate__fadeInUp animate__delay-1s">
+                Software Developer | Graphic Designer
+              </h4>
               <p className="mb-3 animate__animated animate__fadeInUp animate__delay-1s">
                 Di sini, kamu akan menemukan koleksi karya-karya kreatif saya.
                 ini adalah pandangan singkat ke dalam dunia kreatif saya. Mari
@@ -33,9 +36,10 @@ const HomePage = () => {
               </p>
               <button
                 className="btn btn-primary btn-lg rounded-1 animate__animated animate__fadeInUp animate__delay-1s"
-                onClick={() => navigate("/portofolio")}
+                onClick={() => navigate("/about")}
               >
-                Lihat Yuk!
+                About me
+                
               </button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
@@ -48,6 +52,53 @@ const HomePage = () => {
           </Row>
         </Container>
       </header>
+      <div className="project min-vh-100">
+        <Container>
+          <Row>
+            <h1 className='fw-bold text-center animate__animated animate__fadeInUp animate__delay-1s'>
+              Project
+            </h1>
+            <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>
+              Project saya yang telah di ikuti
+            </p>
+          </Row>
+          <Row className="g-4">
+            {project.map((project) => {
+              return (
+                <Col key={project.id} xs={12} md={6} lg={4} data-aos="fade-up" data-aos-delay={project.delay}>
+                  <div className="project-card p-3 h-100 rounded shadow-sm">
+                    <img 
+                      src={project.image} 
+                      alt={project.title} 
+                      className="w-100 rounded mb-3"
+                      style={{height: "200px", objectFit: "cover"}}
+                    />
+                    <h5 className="fw-bold mb-2">{project.title}</h5>
+                    <p className="text-muted mb-3">{project.desc}</p>
+                    
+                    <div className="skills-container mb-3">
+                      {project.skills && project.skills.map((skill, index) => (
+                        <span key={index} className="skill-badge">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                    
+                    <a 
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer" 
+                      className="btn btn-primary w-100"
+                    >
+                      Preview 
+                    </a>
+                  </div>
+                </Col>
+              )
+            })}
+          </Row>
+        </Container>
+      </div>
       <div className="kelas w-100 min-vh-100">
         <Container>
           <Row>
@@ -90,6 +141,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
+
       <div className="testimonial py-5">
         <Container>
           <Row>

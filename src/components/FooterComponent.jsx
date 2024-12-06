@@ -13,16 +13,16 @@ const FooterComponent = () => {
               terbaru! 🙌
             </p>
             <div className="no mb-1 mt-4">
-              <Link className="text-decoration-none">
+              <p className="text-decoration-none">
                 <i className="fa-brands fa-whatsapp"></i>
                 <p className="m-0">+62 813-8915-0978</p>
-              </Link>
+              </p>
             </div>
             <div className="email">
-              <Link className="text-decoration-none">
+              <p className="text-decoration-none">
                 <i className="fa-regular fa-envelope"></i>
                 <p className="m-0">piterwang@gmail.com</p>
-              </Link>
+              </p>
             </div>
           </Col>
           <Col className="d-flex flex-column col-lg-2 col mt-lg-0 mt-5 ">
@@ -42,7 +42,7 @@ const FooterComponent = () => {
               </button>
             </div>
             <div className=" social mt-3" >
-              <a href="https://youtube.com/@egbertangenius?si=UHmorsitjSXQpdMP" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@Angeniusn7" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-youtube"></i>
               </a>
               <a href="http://www.linkedin.com/in/egbert-angenius-279865293" target="_blank" rel="noopener noreferrer">
@@ -51,16 +51,10 @@ const FooterComponent = () => {
               <a href="https://www.instagram.com/egbert_angenius?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="https://www.threads.net/@egbert_angenius" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-threads"></i>
-              </a>
               <a href="https://github.com/Egbertn7" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://github.com/Egbertn7" target="_blank" rel="noopener noreferrer">
-                <i className="fa-upwork fa-upwork">Upwork</i>
-              </a>
-              <a href="https://github.com/Egbertn7" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.fiverr.com/egbertangenius" target="_blank" rel="noopener noreferrer">
                 <i className="fa-fiverr fa-fiverr">Fiverr</i>
               </a>
               

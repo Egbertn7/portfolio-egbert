@@ -11,6 +11,7 @@ import PortofolioPage from './pages/PortofolioPage';
 import TestimonialPage from './pages/TestimonialPage';
 import SyaratPage from './pages/SyaratPage';
 import FaqPage from './pages/FaqPage';
+// import ProjectPage from "./pages/ProjectPage";
 
 
 
@@ -21,6 +22,7 @@ function App() {
 
     <Routes>
       <Route path="/" Component={HomePage} /> {/* Home */}
+      {/* <Route path="/project" Component={ProjectPage} /> */}
       <Route path="/portofolio" Component={PortofolioPage} />
       <Route path="/testimonial" Component={TestimonialPage} />
       <Route path="/faq" Component={FaqPage} />

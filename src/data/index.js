@@ -9,14 +9,18 @@
 // import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
 
 // portofolioPage
-import Image1 from '../assets/img/sertifikat1.png';
-import Image2 from '../assets/img/sertifikat2.png';
-import Image3 from '../assets/img/sertifikat3.png';
-import Image4 from '../assets/img/sertifikat4.png';
-import Image5 from '../assets/img/sertifikat5.png';
-import Image6 from '../assets/img/sertifikat6.png';
-import Image7 from '../assets/img/sertifikat7.png';
-import Image8 from '../assets/img/sertifikat8.png';
+import { Link } from 'react-router-dom';
+import Image1 from '../assets/img/sertifikat1.svg';
+import Image2 from '../assets/img/sertifikat2.svg';
+import Image3 from '../assets/img/sertifikat3.svg';
+import Image4 from '../assets/img/sertifikat4.svg';
+import Image5 from '../assets/img/sertifikat5.svg';
+import Image6 from '../assets/img/sertifikat6.svg';
+import Image7 from '../assets/img/sertifikat7.svg';
+import Image8 from '../assets/img/sertifikat8.svg';
+
+// project
+import Project1 from '../assets/img/project/project1.svg';
 
 // testinialPage 
 import client1 from "../assets/img/testimonial/client1.png";
@@ -32,7 +36,7 @@ export const navLinks = [
   {
     id: 2,
     path: "about", 
-    text: "About", //Syarat & Ketentuan tentang skill
+    text: "About", 
   },
   {
     id: 3,
@@ -49,6 +53,11 @@ export const navLinks = [
     path: "faq",
     text: "FAQ",
   },
+  // {
+  //   id:6,
+  //   path: "project",
+  //   text: "Project"
+  // }
 ];
 
 export const semuaKelas = [
@@ -63,7 +72,7 @@ export const semuaKelas = [
     title: "Character Illustration with Adobe Illustrator",
     price: "Rp. 300.000",
     buy: "Beli Kelas",
-    delay: "1300",
+    delay: "",
   },
   {
     id: 2,
@@ -76,7 +85,7 @@ export const semuaKelas = [
     title: "UI UX Website Design for Beginner with Figma",
     price: "Rp. 340.000",
     buy: "Beli Kelas",
-    delay: "1600",
+    delay: "",
   },
   {
     id: 3,
@@ -89,7 +98,7 @@ export const semuaKelas = [
     title: "Mastering Web Developer Bootstrap 5",
     price: "Rp. 280.000",
     buy: "Beli Kelas",
-    delay: "1900",
+    delay: "",
   },
   {
     id: 4,
@@ -115,7 +124,7 @@ export const semuaKelas = [
     title: "3D Modelling for Beginner with 3D Blender",
     price: "Rp. 380.000",
     buy: "Beli Kelas",
-    delay: "300",
+    delay: "",
   },
   {
     id: 6,
@@ -128,7 +137,7 @@ export const semuaKelas = [
     title: "Mastering Icon Design with Adobe Illustrator",
     price: "Rp. 300.000",
     buy: "Beli Kelas",
-    delay: "600",
+    delay: "",
   },
   {
     id: 7,
@@ -154,7 +163,7 @@ export const semuaKelas = [
      title: "UI UX Design with Adobe XD for Beginner",
      price: "Rp. 400.000",
      buy: "Beli Kelas",
-     delay: "300",
+     delay: "",
      },
   // {
   //   id: 9,
@@ -196,7 +205,7 @@ export const kelasTerbaru = [
     title: "UI UX Website Design for Beginner with Figma",
     price: "Rp. 340.000",
     buy: "Beli Kelas",
-    delay: "200",
+    delay: "",
   },
   {
     id: 3,
@@ -209,7 +218,7 @@ export const kelasTerbaru = [
     title: "Mastering Web Developer Bootstrap 5",
     price: "Rp. 280.000",
     buy: "Beli Kelas",
-    delay: "400",
+    delay: "",
   },
   {
     id: 4,
@@ -235,7 +244,7 @@ export const kelasTerbaru = [
     title: "3D Modelling for Beginner with 3D Blender",
     price: "Rp. 380.000",
     buy: "Beli Kelas",
-    delay: "200",
+    delay: "",
   },
   {
     id: 6,
@@ -248,7 +257,7 @@ export const kelasTerbaru = [
     title: "Mastering Icon Design with Adobe Illustrator",
     price: "Rp. 300.000",
     buy: "Beli Kelas",
-    delay: "400",
+    delay: "",
   },
 {
   id: 7,
@@ -261,7 +270,7 @@ export const kelasTerbaru = [
   title: "Mastering Icon Design with Adobe Illustrator",
   price: "Rp. 300.000",
   buy: "Beli Kelas",
-  delay: "400",
+  delay: "",
 },
 {
 id: 8,
@@ -274,7 +283,7 @@ star5: "fa-solid fa-star",
 title: "Mastering Icon Design with Adobe Illustrator",
 price: "Rp. 300.000",
 buy: "Beli Kelas",
-delay: "400",
+delay: "",
 },
 ];
 
@@ -350,3 +359,16 @@ export const faq = [
     desc: "Saya berfokus pada detail, komunikasi yang terbuka, dan kepuasan klien. Dengan pengalaman bertahun-tahun di industri, saya mengutamakan kualitas dan hasil yang tepat waktu, serta selalu berusaha melebihi ekspektasi klien.",
   },
 ];
+
+
+export const project = [
+  {
+    id: 1,
+    image: Project1,
+    title: "Project1",
+    desc: "tugas",
+    skills: ["HTML", "CSS", "TailwindCSS", "Javascript"],
+    link: "https://github.com/Egbertn7/project-client-1.git",
+    delay: "1300",
+  },
+]

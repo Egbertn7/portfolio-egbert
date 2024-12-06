@@ -199,8 +199,8 @@ header {
 
 /* style untuk testimonial */
 .homepage .testimonial {
-  background-color: #b977e5;
-background-image: linear-gradient(0deg, #b977e5 0%, #887ff6 50%, #87fff7 100%);
+  background-color: #0b56c2;
+  background-image: linear-gradient(270deg, #0b56c2 0%, #5ca3f1 50%, #95fed4 100%);
 
 
 }
@@ -487,3 +487,237 @@ background-image: linear-gradient(0deg, #b977e5 0%, #887ff6 50%, #87fff7 100%);
 .syarat-ketentuan-page .syarat-ketentuan h1{
   --animate-delay: 0.5s;
 }
+
+.bg-shape {
+    transition: all 0.3s ease;
+}
+
+.position-relative:hover .bg-shape {
+    transform: scale(1.05);
+}
+
+.position-relative:hover img {
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+
+.project-info {
+  padding: 15px 0;
+}
+
+.shadow:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Style untuk Project Card */
+.project-card {
+    background: white;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+
+.project-card img {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.skill-badge {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid var(--secondary-color);
+    transition: all 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+    background: var(--secondary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(72, 145, 252, 0.3);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+
+.project-card .btn-primary {
+    margin-top: auto;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(72, 145, 252, 0.3);
+    background-color: #357abd;
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+
+/* Responsive styles for project cards */
+@media screen and (max-width: 768px) {
+    .skills-container {
+        justify-content: center;
+    }
+    
+    .project-card {
+        margin-bottom: 20px;
+    }
+    
+    .project-card h5 {
+        font-size: 1.1rem;
+    }
+    
+    .skill-badge {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project-card img {
+        height: 180px !important;
+    }
+    
+    .project-card h5 {
+        font-size: 1rem;
+    }
+    
+    .project-card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Style untuk Project Section */
+.kelas-page .project {
+    background-color: var(--primary-color);
+    padding-top: 200px;  /* Menambah padding atas */
+    padding-bottom: 100px;
+}
+
+.kelas-page .project .row:nth-child(1) {
+    padding-bottom: 50px;
+}
+
+.kelas-page .project h1 {
+    color: var(--color-text);
+    --animate-delay: 0.5s;
+}
+
+.kelas-page .project p {
+    color: var(--color-text);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .kelas-page .project {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .kelas-page .project {
+        padding-top: 100px;
+    }
+}
+
+/* Style untuk Project Section di Homepage */
+.homepage .project {
+    background-color: var(--primary-color);
+    padding: 100px 0;
+}
+
+.homepage .project .row:nth-child(1) {
+    padding-bottom: 50px;
+}
+
+.homepage .project h1 {
+    color: var(--color-text);
+    --animate-delay: 0.5s;
+}
+
+.homepage .project p {
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 768px) {
+    .homepage .project {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .homepage .project {
+        padding: 60px 0;
+    }
+}
+

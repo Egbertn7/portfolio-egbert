@@ -18,7 +18,7 @@ const TestimonialPage = () => {
               </p>
             </Col>
           </Row>
-          <Row className="row-cols-lg-3 row-cols-1">
+          <Row className="row-cols-lg-3 row-cols-1  animate__animated animate__fadeInUp animate__delay-1s">
             {testimonial.map((data) => {
               return (
                 <Col key={data.id} className="mb-5 shadow-lg p-3">
