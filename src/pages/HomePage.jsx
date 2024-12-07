@@ -56,7 +56,7 @@ const HomePage = () => {
           <Row className="align-items-center">
             <Col lg={6} className="animate__animated animate__fadeInLeft">
               <h2 className="fw-bold mb-4">Need a Freelance Developer?</h2>
-              <p className="mb-4">I'm available for freelance projects and collaborations. Lets work together to bring your ideas to life!</p>
+              <p className="mb-4">Im available for freelance projects and collaborations. Lets work together to bring your ideas to life!</p>
               <div className="d-flex gap-3 mb-4">
                 <div className="freelance-stats">
                   <h4 className="fw-bold text-primary">100%</h4>
