@@ -1,5 +1,6 @@
 import {Container, Row, Col} from 'react-bootstrap';
 import FaqComponent from '../components/FaqComponent';
+import HeroImage from "../assets/img/foto-egbert.png";
 
 const SyaratPage = () => {
 return (
@@ -25,8 +26,8 @@ return (
                            
                         </div>
                         <img 
-                            src="/src/assets/img/foto-egbert.png" 
-                            alt="Profile" 
+                            src={HeroImage} alt="hero-img" 
+                            
                             className="position-relative rounded-3"
                             style={{
                                 width: '280px',

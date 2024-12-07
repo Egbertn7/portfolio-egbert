@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from "../assets/img/foto-egbert.png";
+import MyImage from '../assets/img/profile.jpeg';
 
 import { kelasTerbaru, dataSwiper, project } from "../data/index";
 import { useNavigate } from "react-router-dom";
@@ -85,7 +86,7 @@ const HomePage = () => {
               <div className="freelance-card p-4 rounded-3 shadow-sm">
                 <div className="d-flex align-items-center mb-4">
                   <img 
-                    src="/src/assets/img/profile.jpeg" 
+                    src={MyImage} 
                     alt="Fiverr Profile" 
                     className="rounded-circle me-3"
                     style={{width: "60px", height: "60px", objectFit: "cover"}}
