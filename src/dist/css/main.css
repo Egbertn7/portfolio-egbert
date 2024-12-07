@@ -223,7 +223,7 @@ header {
 
   /* Center slide text vertically */
 
-  flex-decoration: column;
+flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: grab;
@@ -718,6 +718,62 @@ header {
 @media screen and (max-width: 576px) {
     .homepage .project {
         padding: 60px 0;
+    }
+}
+
+/* Freelance Section Styles */
+.freelance-section {
+    background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.freelance-stats {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.freelance-stats:hover {
+    transform: translateY(-5px);
+}
+
+.freelance-card {
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.freelance-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.services-list li {
+    transition: all 0.3s ease;
+}
+
+.services-list li:hover {
+    transform: translateX(5px);
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 992px) {
+    .freelance-card {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .freelance-stats {
+        padding: 0.8rem;
+    }
+    
+    .freelance-stats h4 {
+        font-size: 1.2rem;
     }
 }
 

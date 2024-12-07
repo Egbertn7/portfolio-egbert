@@ -51,6 +51,79 @@ const HomePage = () => {
           </Row>
         </Container>
       </header>
+      <div className="freelance-section py-5">
+        <Container>
+          <Row className="align-items-center">
+            <Col lg={6} className="animate__animated animate__fadeInLeft">
+              <h2 className="fw-bold mb-4">Need a Freelance Developer?</h2>
+              <p className="mb-4">I'm available for freelance projects and collaborations. Lets work together to bring your ideas to life!</p>
+              <div className="d-flex gap-3 mb-4">
+                <div className="freelance-stats">
+                  <h4 className="fw-bold text-primary">100%</h4>
+                  <p className="mb-0">Job Success</p>
+                </div>
+                <div className="freelance-stats">
+                  <h4 className="fw-bold text-primary">24/7</h4>
+                  <p className="mb-0">Support</p>
+                </div>
+                <div className="freelance-stats">
+                  <h4 className="fw-bold text-primary">Fast</h4>
+                  <p className="mb-0">Delivery</p>
+                </div>
+              </div>
+              <a 
+                href="https://www.fiverr.com/egbertangenius" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-lg rounded-1"
+              >
+                <i className="fas fa-external-link-alt me-2"></i>
+                Hire Me on Fiverr
+              </a>
+            </Col>
+            <Col lg={6} className="animate__animated animate__fadeInRight">
+              <div className="freelance-card p-4 rounded-3 shadow-sm">
+                <div className="d-flex align-items-center mb-4">
+                  <img 
+                    src="/src/assets/img/profile.jpeg" 
+                    alt="Fiverr Profile" 
+                    className="rounded-circle me-3"
+                    style={{width: "60px", height: "60px", objectFit: "cover"}}
+                  />
+                  <div>
+                    <h5 className="fw-bold mb-1">Egbert</h5>
+                    <p className="mb-0 text-primary">
+                      <i className="fas fa-star me-1"></i>
+                      Top Rated Seller
+                    </p>
+                  </div>
+                </div>
+                <div className="services-list">
+                  <h6 className="fw-bold mb-3">Services I Offer:</h6>
+                  <ul className="list-unstyled">
+                    <li className="mb-2">
+                      <i className="fas fa-check text-primary me-2"></i>
+                      Web Development & Responsive Design
+                    </li>
+                    <li className="mb-2">
+                      <i className="fas fa-check text-primary me-2"></i>
+                      Editing Video
+                    </li>
+                    <li className="mb-2">
+                      <i className="fas fa-check text-primary me-2"></i>
+                      Illustrator / Cartoon
+                    </li>
+                    <li className="mb-2">
+                      <i className="fas fa-check text-primary me-2"></i>
+                      UI/UX Implementation
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <div className="project min-vh-100">
         <Container>
           <Row>
@@ -58,7 +131,7 @@ const HomePage = () => {
               Project
             </h1>
             <p className='text-center animate__animated animate__fadeInUp animate__delay-1s'>
-            My project that has been followed
+              My completed project
             </p>
           </Row>
           <Row className="g-4">
@@ -87,9 +160,9 @@ const HomePage = () => {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer" 
-                      className="btn btn-primary w-100"
+                      className="btn btn-primary w-50"
                     >
-                      Preview 
+                      Source
                     </a>
                   </div>
                 </Col>

@@ -9,7 +9,7 @@
 // import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
 
 // portofolioPage
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Image1 from '../assets/img/sertifikat1.svg';
 import Image2 from '../assets/img/sertifikat2.svg';
 import Image3 from '../assets/img/sertifikat3.svg';
