@@ -11,7 +11,7 @@ const TestimonialPage = () => {
           <Row>
             <Col>
               <h1 className="text-center fw-bold animate__animated animate__fadeInUp animate__delay-1s">
-                Semua Testimonial
+                Testimonial
               </h1>
               <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
               positive experiences and impressions from clients who have worked with me. Commitment to quality, creativity, and the best results are always the top priorities in every project.
